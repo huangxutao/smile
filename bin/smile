@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const pkg  = require('../package.json');
+const smile = require('../lib');
+
+// init
+program
+    .command('init')
+    .description('create into project')
+    .action(() => {
+        smile.init();
+    });
+
+// version
+program.version(pkg.version);
+program.parse(process.argv);
+program.usage('<command>');
+
+if (!program.args.length) {
+    program.help();
+}

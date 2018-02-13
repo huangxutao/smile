@@ -1,0 +1,20 @@
+{
+  "name": "smile",
+  "version": "0.0.1",
+  "description": "前端开发脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "front end",
+    "nodejs"
+  ],
+  "author": "子不语",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0"
+  }
+}
