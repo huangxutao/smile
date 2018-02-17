@@ -1,5 +1,8 @@
 {
-  "name": "smile",
+  "name": "smiling",
+  "bin": {
+    "smile": "bin/smile"
+  },
   "version": "0.0.1",
   "description": "前端开发脚手架",
   "main": "index.js",
@@ -10,8 +13,12 @@
     "front end",
     "nodejs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangxutao/smile.git"
+  },
   "author": "子不语",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.1",
     "commander": "^2.14.1",
@@ -19,5 +26,8 @@
     "inquirer": "^5.1.0",
     "ora": "^1.4.0",
     "request": "^2.83.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
   }
 }
