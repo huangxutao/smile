@@ -29,5 +29,14 @@
   },
   "engines": {
     "node": ">=7.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/huangxutao/smile/issues"
+  },
+  "homepage": "https://github.com/huangxutao/smile#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {}
 }
