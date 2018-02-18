@@ -9,7 +9,7 @@ program
     .command('init')
     .description('create into project')
     .action(() => {
-        smile.init();
+        smile.init(process.argv[3]);
     });
 
 // version
