@@ -3,7 +3,7 @@
   "bin": {
     "smile": "bin/smile"
   },
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "前端开发脚手架",
   "main": "index.js",
   "scripts": {
