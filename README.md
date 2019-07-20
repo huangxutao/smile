@@ -1,5 +1,7 @@
 # smiling
 
+停止开发维护，可转 https://www.npmjs.com/package/opps
+
 ![](https://img.shields.io/badge/node->%3D6.9.0-brightgreen.svg) ![](https://img.shields.io/badge/npm-3.10.10-brightgreen.svg)
 
 前端脚手架工具(开发中...)
